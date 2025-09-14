@@ -10,7 +10,7 @@ def pof2(n) :
     elif n % 2 == 0 :
         return pof2(n // 2)
     
-n = 80
+n = int(input("Enter a number"))
 
 if pof2(n) :
     print("Power of 2")
